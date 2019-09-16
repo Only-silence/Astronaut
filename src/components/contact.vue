@@ -2,7 +2,7 @@
   <div class="all">
     <div class="title">
       <div class="title-left">Contact</div>
-      <div class="title-right">Location:Home Page > Contact</div>
+      <div class="title-right" @click="home">Location:Home Page <span>> Contact</span></div>
     </div>
     <div class="center">
       <div class="center-title">Contact</div>
@@ -26,7 +26,13 @@
 export default {
   data() {
     return {};
-  }
+  },
+  methods:{
+         //跳转页面
+         home(){
+             this.$router.push({path:'/home'})
+         }
+     }
 };
 </script>
 

@@ -17,31 +17,31 @@ export default new Router({
       path: "/",
       name: "index",
       component: index,
-      redirect: '/home',
+      redirect: "/home",
       children:[
         {
-          path: 'home',
-          name: 'home',
+          path: "home",
+          name: "home",
           component: home
         },
         {
-          path: 'aboutus',
-          name: 'aboutus',
+          path: "aboutus",
+          name: "aboutus",
           component: aboutus
         },
         {
-          path: 'product',
-          name: 'product',
+          path: "product",
+          name: "product",
           component: product
         },
         {
-          path: 'seabuckthorn',
-          name: 'seabuckthorn',
+          path: "seabuckthorn",
+          name: "seabuckthorn",
           component: seabuckthorn
         },
         {
-          path: 'contact',
-          name: 'contact',
+          path: "contact",
+          name: "contact",
           component: contact
         }
       ]

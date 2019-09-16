@@ -2,7 +2,7 @@
     <div class="all">
         <div class="title">
             <div class="title-left">ABOUT US</div>
-            <div class="title-right">Location:Home Page > About Us</div>
+            <div class="title-right" @click="home">Location:Home Page <span>> About Us</span></div>
         </div>
         <div class="center">
             <div class="center-title">Inner Mongolia Yuhangren High-Tech Industrial Co., Ltd.</div>
@@ -25,7 +25,13 @@ export default {
         return{
 
         }
-    }
+    },
+    methods:{
+         //跳转页面
+         home(){
+             this.$router.push({path:'/home'})
+         }
+     }
 }
 </script>
 

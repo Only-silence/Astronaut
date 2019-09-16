@@ -10,7 +10,7 @@
                     <div class="center-left">
                         <div class="center-left-title">{{aboutUs}}</div>
                         <div class="center-left-text">{{aboutUsText}}</div>
-                        <div class="center-left-button">
+                        <div @click="aboutus" class="center-left-button">
                             <span>READ MORE</span>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                 <div class="aboutSeabuckthorn-all">
                     <div class="aboutSeabuckthorn-title">{{aboutSeabuckthorn}}</div>
                     <div class="aboutSeabuckthorn-text">{{aboutSeabuckthornText}}</div>
-                    <div class="aboutSeabuckthorn-button">READ MORE</div>
+                    <div @click="seabuckthorn" class="aboutSeabuckthorn-button">READ MORE</div>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                                 <div class="list-right-title">{{item.title}}</div>
                                 <div class="list-right-line"></div>
                                 <div class="list-right-text">{{item.text}}</div>
-                                <div class="list-right-button">READ MORE</div>
+                                <div @click="product" class="list-right-button">READ MORE</div>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                 <div class="list-right-title">{{item.title}}</div>
                                 <div class="list-right-line"></div>
                                 <div class="list-right-text">{{item.text}}</div>
-                                <div class="list-right-button">READ MORE</div>
+                                <div @click="product" class="list-right-button">READ MORE</div>
                             </div>
                             <div class="center-list-left">
                                 <img style="width:100%;height:100%" :src="item.img" alt="">
@@ -138,7 +138,22 @@ export default {
             },
         ]
         }
-    }
+    },
+    methods:{
+         //跳转页面
+         aboutus(){
+             this.$router.push({path:'/aboutus'})
+         },
+         contact(){
+             this.$router.push({path:'/contact'})
+         },
+         seabuckthorn(){
+             this.$router.push({path:'/seabuckthorn'})
+         },
+         product(){
+             this.$router.push({path:'/product'})
+         }
+     }
 }
 </script>
 

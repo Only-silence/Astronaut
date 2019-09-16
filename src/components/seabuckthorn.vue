@@ -2,7 +2,7 @@
     <div class="all">
         <div class="title">
             <div class="title-left">ABOUT SEABUCKTHORN</div>
-            <div class="title-right">Location: Home Page > ABOUT SEABUCKTHORN</div>
+            <div class="title-right" @click="home">Location: Home Page <span>> ABOUT SEABUCKTHORN</span></div>
         </div>
         <div class="center">
             <div class="onePage" v-for="(item,index) in list" :key="index">
@@ -13,7 +13,7 @@
                     <div class="list-right">
                         <div class="list-right-title">{{item.title}}</div>
                         <div class="list-right-text">{{item.text}}</div>
-                        <div class="list-right-button">READ MORE</div>
+                        <div @click="product" class="list-right-button">READ MORE</div>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,16 @@ export default {
             }
         ]
         }
-    }
+    },
+    methods:{
+         //跳转页面
+         product(){
+             this.$router.push({path:'/product'})
+         },
+         home(){
+             this.$router.push({path:'/home'})
+         }
+     }
 }
 </script>
 

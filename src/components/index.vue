@@ -27,7 +27,7 @@
         </div>
         <div class="head-right-down">
           <div class="titles" v-for="(item,index) in titles" :key="index">
-            <router-link :to="item.method"><div>{{item.title}}</div></router-link>
+            <router-link :to="item.method"><div class="titles-text">{{item.title}}</div></router-link>
           </div>
         </div>
       </div>

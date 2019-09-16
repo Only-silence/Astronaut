@@ -2,7 +2,7 @@
     <div class="all">
         <div class="title">
             <div class="title-left">PRODUCT DISPLAY</div>
-            <div class="title-right">Location: Home Page > Product Display</div>
+            <div class="title-right" @click="home">Location: Home Page <span>> Product Display</span></div>
         </div>
         <div class="center">
             <div class="center-title">Introduction of Seabuckthorn Seed Oil
@@ -25,7 +25,13 @@ export default {
         return{
 
         }
-    }
+    },
+    methods:{
+         //跳转页面
+         home(){
+             this.$router.push({path:'/home'})
+         }
+     }
 }
 </script>
 
