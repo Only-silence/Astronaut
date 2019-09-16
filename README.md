@@ -5,6 +5,11 @@
 npm install
 ```
 
+### cd Folder
+```
+cd Astronaut
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
