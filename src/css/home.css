@@ -1,0 +1,294 @@
+*{
+    box-sizing: content-box;
+}
+.all{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.all > div{
+    display: flex;
+}
+
+.aboutUs{
+    height: 41rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourCertification{
+    height: 60.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutSeabuckthorn{
+    height: 44.8rem;
+    display: flex;
+}
+
+.productDisplay{
+    height: 61.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUs-all{
+    height: 71%;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUs-title{
+    height: 16%;
+    width: 16%;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #222;
+}
+
+.aboutUs-center{
+    margin-top: 4%;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-left{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.center-left-title{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.center-left-text{
+    height: 67%;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    text-align: justify;
+}
+
+.center-left-button{
+    height: 10.5%;
+    width: 22%;
+    color: #fff;
+    background: #fbc412;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-right{
+    height: 87%;
+    width: 42.5%;
+    border: #fbc412 solid 10px;
+}
+
+.ourCertification-all{
+    height: 70%;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourCertification-title{
+    height: 11%;
+    width: 30%;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #222;
+}
+
+.ourCertification-title > img {
+    margin-top: 2%;
+}
+
+.ourCertification-center{
+    margin-top: 3%;
+    height: 81%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ourCertification-img{
+    height: 45%;
+    width: 31%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3%;
+    justify-content: space-between;
+}
+
+.ourCertification-list{
+    height: 100%;
+    width: 100%;
+    border: #fbc412 solid 6px;
+}
+
+.aboutSeabuckthorn-left{
+    width: 50%;
+}
+
+.aboutSeabuckthorn-right{
+    width: 50%;
+    display: flex;
+    background: #fbc412;
+    align-items: center;
+}
+
+.aboutSeabuckthorn-all{
+    height: 60%;
+    width: 69%;
+    margin-top: 3%;
+    margin-left: 8.5%;
+}
+
+.aboutSeabuckthorn-title{
+    height: 6%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.aboutSeabuckthorn-text{
+    margin-top: 3%;
+    height: 64%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    text-align: justify;
+}
+
+.aboutSeabuckthorn-button{
+    margin-top: 7.5%;
+    width: 25%;
+    height: 12%;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: #fff solid 1px;
+}
+
+.productDisplay-all{
+    height: 70%;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productDisplay-title{
+    height: 11%;
+    width: 28%;
+    margin-bottom: 3%;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #222;
+}
+
+.productDisplay-center{
+    height: 83%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center{
+    display: flex;
+    width: 100%;
+    height: 47%;
+    justify-content: space-between;
+}
+
+.center-list{
+    width: 48.5%;
+    height: 100%;
+    display: flex;
+    border: rgb(255, 217, 0) solid 1px;
+}
+
+.center-list-left{
+    width: 50%;
+    border: #fbc412 solid 1px;
+}
+
+.center-list-right{
+    width: 50%;
+    border: #fbc412 solid 1px;
+}
+
+.list-right-title{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 11%;
+}
+
+.list-right-line{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 3%;
+    border-bottom: #fbc412 solid 1px;
+}
+
+.list-right-text{
+    height: 31%;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    color: #837f7f;
+    text-align: justify;
+    margin: 8% 3% 0 3%;
+}
+
+.list-right-button{
+    width: 45%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5e5858;
+    font-weight: 600;
+    margin: 10% 30%;
+    border: #fbc412 solid 1px;
+}
+
+.list-right-button:hover{
+    color: #fff;
+    cursor: pointer;
+    background: #fbc412;
+}

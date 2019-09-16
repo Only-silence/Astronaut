@@ -1,0 +1,152 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 61%;
+    height: 7.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: #868484 solid 1px;
+}
+
+.title-left{
+    width: 26%;
+    height: 40%;
+    color: #fbc412;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.title-right{
+    width: 32%;
+    height: 35%;
+}
+
+.center{
+    margin: 3% 0 3% 0;
+    width: 61%;
+    height: 125rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.onePage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-left{
+    height: 100%;
+    width: 42.5%;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+}
+
+.list-right{
+    height: 100%;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-right-title{
+    height: 10%;
+    margin-top: 6.5%;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #42394a;
+}
+
+.list-right-text{
+    margin-top: 3.5%;
+    height: 47%;
+    color: #999;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+.list-right-button{
+    height: 11%;
+    margin-left: 1%;
+    width: 32.5%;
+    font-size: 1.3rem;
+    color: #42394a;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #edecec;
+    box-shadow: #868484 1px 2px 3px;
+    /* border: #f00 solid 1px; */
+}
+
+.list-right-button:hover{
+    cursor: pointer;
+    color: #fff;
+    background: #fbc412;
+}
+
+.page{
+    margin-bottom: 3%;
+    height: 2.3rem;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-button{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-list{
+    height: 100%;
+    width: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background: #f0f0ef;
+    font-weight: 600;
+    color: #777;
+    margin: 0 1.3%;
+}
+
+.page-list:hover,.list-button:hover{
+    color: #fff;
+    background: #fbc412;
+    cursor: pointer;
+}
+
+.list-button{
+    height: 100%;
+    width: 100%;
+    background: #f0f0ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

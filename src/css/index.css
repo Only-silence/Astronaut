@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* > div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* border: #f00 solid 1px; */
+}
+
+.astronauts {
+    flex-direction: column;
+}
+
+.astronauts-head{
+    height: 8.2rem;
+}
+
+.head-left{
+    width: 33.2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin-left: 30%;
+    height: 75%;
+}
+
+.head-right{
+    width: 66.8%;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.head-right-up{
+    height: 55%;
+    padding-left: 17%;
+    align-items: center;
+}
+
+.up-icon{
+    align-items: center;
+}
+
+.up-phone-width{
+    width: 25%;
+}
+
+.up-email-width{
+    width: 17%;
+}
+
+.up-web-width{
+    width: 17.5%;
+}
+
+img{
+    display: block;
+    margin-right: 5%;
+}
+
+.up-search{
+    height: 50%;
+    width: 16.3%;
+    border-radius: 50px;
+    border: #edb913 solid 1px;
+}
+
+.search{
+    margin-left: 1.5%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+}
+
+.search-button{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 50px 50px 0;
+}
+
+.search-icon{
+    display: block;
+    height: 50%;
+    margin-left: 5%;
+}
+
+.head-right-down{
+    height: 45%;
+    background-image: url(../assets/head-background.png)
+}
+
+.titles{
+    font-weight: 600;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.astronauts-banner{
+    height: 46rem;
+    /* cursor: pointer; */
+}
+
+.astronauts-center{
+    /* height: 208.5rem; */
+    height: 100%;
+}
+
+.astronauts-footer{
+    height: 16.7rem;
+    align-items: center;
+    justify-content: center;
+    background: #222222;
+}
+
+.footer{
+    justify-content: space-between;
+    width: 52.5%;
+}
+
+.footer-left{
+    flex-direction: column;
+    width: 81%;
+}
+
+.footer-title{
+    height: 10%;
+    margin-top: 5%;
+    color: #fff;
+    font-size: 600;
+}
+
+.footer-line{
+    height: 1px;
+    width: 5%;
+    margin: 0 0 1.4% 0;
+    border-top: #edb913 solid 1px;
+}
+
+.footer-list{
+    height: 9%;
+    color: #fff;
+}
+
+.footer-text{
+    cursor: pointer;
+    /* margin-left: 1%; */
+    width: 97%;
+}
+
+.footer-right{
+    flex-direction: column;
+    width: 19%;
+}
