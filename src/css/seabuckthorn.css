@@ -14,22 +14,24 @@
 }
 
 .title-left{
-    width: 26%;
+    width: 50%;
     height: 40%;
+    text-align: left;
     color: #fbc412;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 .title-right{
-    width: 32%;
+    width: 50%;
     height: 35%;
+    text-align: right;
 }
 
 .center{
     margin: 3% 0 3% 0;
     width: 61%;
-    height: 125rem;
+    height: 160rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -79,16 +81,18 @@
 
 .list-right-text{
     margin-top: 3.5%;
-    height: 47%;
+    height: auto;
     color: #999;
+    display:inline-block;
     line-height: 1.7rem;
     text-align: justify;
 }
 
 .list-right-button{
     height: 11%;
-    margin-left: 1%;
-    width: 32.5%;
+    margin: 7% 0 0 1%;
+    width: 38%;
+    display:inline-block;
     font-size: 1.3rem;
     color: #42394a;
     font-weight: 600;

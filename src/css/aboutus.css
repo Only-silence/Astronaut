@@ -15,7 +15,8 @@
 }
 
 .title-left{
-    width: 12.5%;
+    width: 50%;
+    text-align: left;
     height: 40%;
     color: #fbc412;
     font-size: 1.5rem;
@@ -23,7 +24,8 @@
 }
 
 .title-right{
-    width: 22.5%;
+    width: 50%;
+    text-align: right;
     height: 35%;
 }
 
@@ -36,7 +38,7 @@
 }
 
 .center-title{
-    width: 70%;
+    width: 100%;
     height: 12%;
     display: flex;
     align-items: center;
@@ -46,8 +48,9 @@
 }
 
 .center-text{
-    width: 100%;
-    height: 88%;
+    width: auto;
+    height: auto;
+    display:inline-block;
     text-align: justify;
     line-height: 3rem;
     font-size: 1.1rem;

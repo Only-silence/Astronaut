@@ -1,5 +1,5 @@
 <template>
-    <div class="all">
+    <div class="all" id="home">
         <div class="aboutUs">
             <div class="aboutUs-all">
                 <div class="aboutUs-title">
@@ -20,10 +20,10 @@
                 </div>
             </div>
         </div>
-        <div class="ourCertification">
+        <div class="ourCertification" id="ourCertification">
             <div class="ourCertification-all">
                 <div class="ourCertification-title">
-                    <div>ourCertification</div>
+                    <div>OUR CERTIFICATION</div>
                     <img src="../assets/sep.png" alt="">
                 </div>
                 <div class="ourCertification-center">
@@ -42,7 +42,7 @@
                 <div class="aboutSeabuckthorn-all">
                     <div class="aboutSeabuckthorn-title">{{aboutSeabuckthorn}}</div>
                     <div class="aboutSeabuckthorn-text">{{aboutSeabuckthornText}}</div>
-                    <div @click="seabuckthorn" class="aboutSeabuckthorn-button">READ MORE</div>
+                    <div @click="product" class="aboutSeabuckthorn-button">READ MORE</div>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                                 <div class="list-right-title">{{item.title}}</div>
                                 <div class="list-right-line"></div>
                                 <div class="list-right-text">{{item.text}}</div>
-                                <div @click="product" class="list-right-button">READ MORE</div>
+                                <div @click="seabuckthorn" class="list-right-button">READ MORE</div>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                 <div class="list-right-title">{{item.title}}</div>
                                 <div class="list-right-line"></div>
                                 <div class="list-right-text">{{item.text}}</div>
-                                <div @click="product" class="list-right-button">READ MORE</div>
+                                <div @click="seabuckthorn" class="list-right-button">READ MORE</div>
                             </div>
                             <div class="center-list-left">
                                 <img style="width:100%;height:100%" :src="item.img" alt="">
@@ -91,7 +91,7 @@ export default {
         return{
             aboutUs: "Inner Mongolia Yuhangren High-Tech Industrial Co., Ltd.",
             aboutUsText: "Inner Mongolia Yuhangren High-Tech Industrial Co., Ltd. was established in 1988, which is a key high-tech enterprise in Inner Mongolia Autonomous Region, and the largest large-sized enterprise engaged in the comprehensive industrialization research of seabuckthorn around the world as well.We founded two research institutions; they are Inner Mongolia Seabuckthorn Engineering Research Center and Sino-Japan Natural Medicine Research Center.And we have hundreds of professionals for Pharmacy, chemistry, bioengineering, medicine, etc.",
-            aboutSeabuckthorn: "About Seabuckthorn",
+            aboutSeabuckthorn: "ABOUT SEABUCKTHORN",
             aboutSeabuckthornText: "Seabuckthorn (Hippophae rhamnoides L.) is an attractive ornamental plant with bright orange fruit and narrow, silver green leaves. It belongs to Hippophae genus of Elaeagnaceae family. Legend holds that Genghis Khan fed seabuckthorn, the nutrition-packed berries to his soldiers and horses for strength before battle and to keep them healthy afterward.Clinical studies have revealed that seabuckthorn berry enriches nutritional components and contains total soluble sugar (totally fructose and glucose), organic acid and various vitamins, for example carotene, VC, VE, VB1, VB2 etc. Seabuckthorn berries have more assorted nutrition than that of other fruit trees. It is a great source of vitamin C, with up to several ten times as much as general fruits. The content of vitamin E is the top of all fruits.",
             ourCertification: [
                 {

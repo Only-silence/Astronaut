@@ -22,25 +22,25 @@ export default {
           {
             // html: 'slide1',
             style: {
-              'background': '#cdf97c',
+              'background': 'url(http://seabuckthornproduct.com/img/banner.jpg)',
               'background-repeat': 'no-repeat',
-              // 'background-size': '100% 100%'
+              'background-size': '100% 100%'
             }
           },
           {
             // html: 'slide2',
             style: {
-              'background': '#faa37a',
+              'background': 'url(http://seabuckthornproduct.com/img/banner2.jpg)',
               'background-repeat': 'no-repeat',
-              // 'background-size': '100% 100%'
+              'background-size': '100% 100%'
             }
           },
           {
             // html: 'slide3',
             style: {
-              'background': '#5df7ea',
+              'background': 'url(http://seabuckthornproduct.com/img/banner3.jpg)',
               'background-repeat': 'no-repeat',
-              // 'background-size': '100% 100%'
+              'background-size': '100% 100%'
             }
           }
         ],

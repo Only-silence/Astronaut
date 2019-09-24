@@ -46,7 +46,7 @@
 
 .aboutUs-title{
     height: 16%;
-    width: 16%;
+    width: 50%;
     font-weight: 600;
     font-size: 2rem;
     color: #222;
@@ -72,20 +72,22 @@
     display: flex;
     align-items: center;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .center-left-text{
-    height: 67%;
-    width: 100%;
+    height: auto;
+    width: auto;
+    display: inline-block;
     font-size: 1rem;
     line-height: 1.9rem;
     text-align: justify;
 }
 
 .center-left-button{
-    height: 10.5%;
-    width: 22%;
+    margin-top: 1%; 
+    height: 11%;
+    width: 24%;
     color: #fff;
     background: #fbc412;
     font-weight: 600;
@@ -111,7 +113,7 @@
 
 .ourCertification-title{
     height: 11%;
-    width: 30%;
+    width: 50%;
     margin-top: -10px;
     display: flex;
     flex-direction: column;
@@ -180,7 +182,8 @@
 
 .aboutSeabuckthorn-text{
     margin-top: 3%;
-    height: 64%;
+    height: auto;
+    display: inline-block;
     color: #fff;
     font-size: 1rem;
     line-height: 1.9rem;
@@ -210,7 +213,7 @@
 
 .productDisplay-title{
     height: 11%;
-    width: 28%;
+    width: 50%;
     margin-bottom: 3%;
     font-weight: 600;
     font-size: 2rem;
@@ -242,41 +245,45 @@
 .center-list-left{
     width: 50%;
     border: #fbc412 solid 1px;
+    border-right: none;
 }
 
 .center-list-right{
     width: 50%;
     border: #fbc412 solid 1px;
+    border-left: none;
 }
 
 .list-right-title{
     height: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
     font-weight: 600;
     font-size: 1rem;
-    margin-left: 3%;
+    margin-left: 7%;
     margin-top: 11%;
 }
 
 .list-right-line{
     width: 40%;
     margin-top: 1%;
-    margin-left: 3%;
+    margin-left: 7%;
     border-bottom: #fbc412 solid 1px;
 }
 
 .list-right-text{
-    height: 31%;
+    height: auto;
+    display: inline-block;
     font-size: 0.9rem;
     line-height: 1.1rem;
     color: #837f7f;
-    text-align: justify;
-    margin: 8% 3% 0 3%;
+    text-align: left;
+    margin: 8% 7% 0 7%;
 }
 
 .list-right-button{
-    width: 45%;
+    width: 50%;
     height: 14%;
     display: flex;
     align-items: center;

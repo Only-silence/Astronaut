@@ -9,6 +9,10 @@
   margin: 0;
   padding: 0;
 }
+html,body{
+  min-width: 1366px;
+  min-height: 768px;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,7 +21,6 @@
   font-size: 1rem;
   height: 462%;
   width: 100%;
-  // background-image:url('./assets/2019-8-21-gai-宇航人英文网站.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #2c3e50;

@@ -8,7 +8,7 @@
         <div class="head-right-up">
             <div class="up-icon up-phone-width">
               <img src="@/assets/phone-icon.png" alt="">
-              <span>+86-471-4610322,3337718,3337719</span>
+              <span>+86-471-4610322</span>
             </div>
             <div class="up-icon up-email-width">
               <img src="@/assets/email-icon.png" alt="">
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="astronauts-banner">
+    <div class="astronauts-banner" @click="product">
       <banner/>
     </div>
     <div class="astronauts-center">
@@ -56,7 +56,7 @@
           <div class="footer-list" v-for="(item,index) in footer2" :key="index">
             <div>
               <i style="cursor: pointer;" :class="item.iconCls"></i>
-              <div style="margin-left: 2%;" class="footer-text">{{item.text}}</div>
+              <div style="margin-left: 2%;" @click="click(index)" class="footer-text">{{item.text}}</div>
             </div>
           </div>
         </div>
@@ -84,16 +84,16 @@ export default {
               title: "ABOUT US"
             },
             {
-              method:'product',
+              method:'seabuckthorn',
               title: "PRODUCT DISPLAY"
             },
             {
-              method:'seabuckthorn',
+              method:'product',
               title: "ABOUT SEABUCKTHORN"
             },
             {
               method:'contact',
-              title: "CONTACT"
+              title: "CONTACT US"
             }
           ],
         footer:[
@@ -141,9 +141,32 @@ export default {
           },
           {
             iconCls: "iconfont icon-daohang",
-            text: "CONTACT"
+            text: "Contact Us"
           }
         ]
+        }
+    },
+    methods:{
+         //跳转页面
+         product(){
+             this.$router.push({path:'/product'})
+         },
+         click(index){
+             if(index == 0){
+               this.$router.push({path:'/aboutus'})
+             }else if(index == 1){
+               this.$router.push({path:'/seabuckthorn'})
+             }else if( index == 2){
+               this.$router.push({path:'/home'});
+               if(this.$router.push({path:'/home'})){
+                 this.querySelector("#ourCertification").scrollIntoView(true)
+               }
+              //  document.querySelector("#ourCertification").scrollIntoView(true)
+             }else if( index == 3){
+               this.$router.push({path:'/product'})
+             }else{
+               this.$router.push({path:'/contact'})
+             }
         }
     }
 };

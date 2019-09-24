@@ -1,5 +1,5 @@
 <template>
-    <div class="all">
+    <div class="all" id="aboutus">
         <div class="title">
             <div class="title-left">ABOUT US</div>
             <div class="title-right" @click="home">Location:Home Page <span>> About Us</span></div>

@@ -15,21 +15,23 @@
 }
 
 .title-left{
-    width: 8.5%;
+    width: 50%;
     height: 40%;
+    text-align: left;
     color: #fbc412;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 .title-right{
-    width: 19.5%;
+    width: 50%;
     height: 35%;
+    text-align: right;
 }
 
 .center{
     width: 60%;
-    height: 65rem;;
+    height: 32rem;;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +41,7 @@
 .center-title{
     width: 70%;
     height: 12%;
+    margin: 3% 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,10 +55,4 @@
     text-align: justify;
     line-height: 3rem;
     font-size: 1.1rem;
-}
-
-.map{
-    margin-bottom: 5%;
-    height: 100rem;
-    width: 100%;
 }
